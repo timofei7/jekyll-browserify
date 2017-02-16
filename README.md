@@ -37,10 +37,10 @@ $ cat _site/main.js
 Add the below to `_config.yaml` if you want to use with [babel][]:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~_config.yaml
-# require `npm install -D browserify baberify babel-preset-es2015`
+# require `npm install -D browserify babelify babel-preset-es2015`
 
 browserify:
-  command: "$(npm bin)/browserify -t [ babelify --presets es2015 ]"
+  command: "$(npm bin)/browserify -t [ babelify --presets es2015 ] -"
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ### Confing items and Default Values
